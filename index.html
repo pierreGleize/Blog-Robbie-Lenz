@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" >
+    <title>Accueil - Robbie Lens Photographie</title>
+    <link href="style.css" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/billet-davion.png" type="image/x-icon">
+    <script src="path/to/chartjs/dist/chart.umd.js"></script>
+
+    <!-- <script type="module" src="dimensions.js"></script> -->
+   
+   
+</head>
+
+
+<body>
+    <header>
+        <nav> 
+             <img src="image/logo.png" alt="Logo" class="logo"> 
+          <div class="bouton">
+                <a href="index.html" class="bouton1"> Accueil</a>
+                <a href="a-propos.html" class="bouton1">A propos</a>
+                <a href="tarifs.html" class="bouton1">Tarifs</a>
+                <a href="portfolio.html" class="bouton1">Portfolio</a>
+            </div> 
+        </nav>
+            
+            
+    </header>
+    <main>
+        <div style="width: 500px;"><canvas id="dimensions"></canvas></div><br/>
+        
+<script type="module" src="acquisitions.js"></script>
+         
+          
+        <section class="bleu" id="bleue">
+            <div class="presentation">
+            <div class="presentation1">
+                    <h1>Robbie Lens Photographie</h1>
+                    <div id="cachephoto"></div>
+                    <div id="photocache"> </div>
+                <p>Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
+                plus de 5 ans maintenant, j’exerce mon métier avec la passion
+                qui m’anime : capturer l’essence de chaque instant.
+                </p>
+                
+              <a  class="cta" href="#bas">UN PROJET ? ÉCRIVEZ-MOI</a>   
+            </div>
+            <div class="cachephoto"></div><div class=photocache> </div>
+                <img class="robbie" src="image/robbie-lens (1).png" alt="Portrait avec effet de la photographe Robbie Lens" >
+            </div>
+        </section>
+        <section>
+            <h2 class="premiertitre">Mon dernier projet</h2> 
+            
+            <div class="dernierprojet">   
+                <img class="jsaispas" src="image/element-1.png" alt="">
+                <img  class="jsaispas" src="image/element-2.png" alt="">
+                <img class="jsaispas" src="image/element-3.png" alt="">
+                <img class="jsaispas"src="image/element-4.png" alt="">
+             <img class="jsaispas" src="image/element-5.png" alt="">
+             <img class="jsaispas" src="image/element-6.png" alt="">
+            
+            
+             </div>
+             <div class="placee"></div>
+        <a  class="vmp"href="portfolio.html" >Voir Mon Portofolio</a>
+        
+        </section>
+        
+            
+        
+        <section class="bleu">
+            <h2 id="mondernierprojet">Parlons de votre projet</h2>
+         <form method="get" action="">
+
+            <div class="namemail"> 
+            <label for="name" class="name1"> Nom</label> 
+            <label for="mail" class="name1"> Mail</label>
+        </div>
+        <div class="mailname">
+            <input type="text" name="Nom" id="name" value="" placeholder="" maxlength="20" required> 
+            <div id="espaces"></div>
+            <input type="email" name="mail" id="mail" value="" maxlength="30" placeholder="" required>
+        </div>
+            
+            <div class="messageenvoyer">
+                <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+            
+            <input type="submit" value="Envoyer" class="envoyer">
+            </div>
+        </form>
+        </section>
+    </main>
+
+    <footer>
+    <nav id="bas">
+        
+            <img src="image/logo.png" alt="Logo Robbie Lens"  class="logo">
+        <div class="twitterinsta">
+             <a target="_blank" href="https://twitter.com/"><img src="image/communication.png" alt="" class="twitter">
+             </a>
+
+            <a target="_blank" href="https://www.instagram.com/" >
+            <img src="image/instagram.png" alt="Logo Instagram" id="insta" ></a>
+            
+            
+            
+         </div>
+    </nav>
+    </footer>
+
+</body>
+
+</html>
