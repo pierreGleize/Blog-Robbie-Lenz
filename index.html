@@ -2,120 +2,104 @@
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8" >
+    <meta charset="utf-8" />
     <title>Accueil - Robbie Lens Photographie</title>
-    <link href="style.css" rel="stylesheet" >
+    <link href="style/style.css" rel="stylesheet" />
+    <link href="style/index.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="image/billet-davion.png" type="image/x-icon">
-    <script src="path/to/chartjs/dist/chart.umd.js"></script>
-
-    <!-- <script type="module" src="dimensions.js"></script> -->
-   
-   
+    <link rel="shortcut icon" href="images/billet-davion.png" type="image/x-icon">
 </head>
-
 
 <body>
     <header>
-        <nav> 
-             <img src="image/logo.png" alt="Logo" class="logo"> 
-          <div class="bouton">
-                <a href="index.html" class="bouton1"> Accueil</a>
-                <a href="a-propos.html" class="bouton1">A propos</a>
-                <a href="tarifs.html" class="bouton1">Tarifs</a>
-                <a href="portfolio.html" class="bouton1">Portfolio</a>
-            </div> 
+        <nav>
+            <a href="index.html" class="lien-icone">
+                <img src="images/logo.png" alt="Logo Robbie Lens" />
+            </a>
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="a-propos.html">À propos</a>
+                <a href="portfolio.html">Portfolio</a>
+                
+            </div>
         </nav>
-            
-            
     </header>
     <main>
-        <div style="width: 500px;"><canvas id="dimensions"></canvas></div><br/>
-        
-<script type="module" src="acquisitions.js"></script>
-         
-          
-        <section class="bleu" id="bleue">
-            <div class="presentation">
-            <div class="presentation1">
-                    <h1>Robbie Lens Photographie</h1>
-                    <div id="cachephoto"></div>
-                    <div id="photocache"> </div>
-                <p>Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
-                plus de 5 ans maintenant, j’exerce mon métier avec la passion
-                qui m’anime : capturer l’essence de chaque instant.
+        <section class="accueil-introduction">
+            <div>
+                <h1>Robbie Lens Photographie</h1>
+                <p>
+                    Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
+                    plus de 5 ans maintenant, j’exerce mon métier avec la passion
+                    qui m’anime : capturer l’essence de chaque instant.
                 </p>
-                
-              <a  class="cta" href="#bas">UN PROJET ? ÉCRIVEZ-MOI</a>   
+                <a href="#contact" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
             </div>
-            <div class="cachephoto"></div><div class=photocache> </div>
-                <img class="robbie" src="image/robbie-lens (1).png" alt="Portrait avec effet de la photographe Robbie Lens" >
-            </div>
-        </section>
-        <section>
-            <h2 class="premiertitre">Mon dernier projet</h2> 
-            
-            <div class="dernierprojet">   
-                <img class="jsaispas" src="image/element-1.png" alt="">
-                <img  class="jsaispas" src="image/element-2.png" alt="">
-                <img class="jsaispas" src="image/element-3.png" alt="">
-                <img class="jsaispas"src="image/element-4.png" alt="">
-             <img class="jsaispas" src="image/element-5.png" alt="">
-             <img class="jsaispas" src="image/element-6.png" alt="">
-            
-            
-             </div>
-             <div class="placee"></div>
-        <a  class="vmp"href="portfolio.html" >Voir Mon Portofolio</a>
-        
+            <img src="images/robbie-lens (1).png" alt="Portrait avec effet de la photographe Robbie Lens" />
         </section>
         
-            
-        
-        <section class="bleu">
-            <h2 id="mondernierprojet">Parlons de votre projet</h2>
-         <form method="get" action="">
+        <section class="accueil-photos">
+                <h2>Mon dernier projet</h2>
+            <div class="accueil-grid">
+                <a href="images/element-1.png" class="lien-conteneur-photo">
+                <img src="images/element-1.png" alt="Twelve apostles - Australie" />
+                <div class="photo-hover">Voir la photo</div></a>
 
-            <div class="namemail"> 
-            <label for="name" class="name1"> Nom</label> 
-            <label for="mail" class="name1"> Mail</label>
-        </div>
-        <div class="mailname">
-            <input type="text" name="Nom" id="name" value="" placeholder="" maxlength="20" required> 
-            <div id="espaces"></div>
-            <input type="email" name="mail" id="mail" value="" maxlength="30" placeholder="" required>
-        </div>
-            
-            <div class="messageenvoyer">
-                <label for="message">Message</label>
-            <textarea name="message" id="message"></textarea>
-            
-            <input type="submit" value="Envoyer" class="envoyer">
+                <a href="images/element-2.png" class="lien-conteneur-photo">
+                <img src="images/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zélande" />
+                <div class="photo-hover">Voir la photo</div></a>
+
+                <a href="images/element-3.png" class="lien-conteneur-photo">
+                <img src="images/element-3.png" alt="Parc National d’Abel Tasman - Nouvelle-Zélande" />
+                <div class="photo-hover">Voir la photo</div></a>
+
+                <a href="images/element-4.png" class="lien-conteneur-photo">
+                <img src="images/element-4.png" alt="Lac Rotorua - Nouvelle-Zélande" />
+                <div class="photo-hover">Voir la photo</div></a>
+                <a href="images/element-5.png" class="lien-conteneur-photo">
+                <img src="images/element-5.png" alt="Milford Sound - Nouvelle-Zélande" />
+                <div class="photo-hover">Voir la photo</div></a>
+                <a href="images/element-6.png" class="lien-conteneur-photo">
+                <img src="images/element-6.png" alt="Lac Wanaka - Nouvelle-Zélande" />
+                <div class="photo-hover">Voir la photo</div></a>
             </div>
-        </form>
+              
+            
+        </section>
+        <section id="contact" class="section-contact">
+            <h2>Parlons de votre projet</h2>
+            <form method="get" action="">
+                <div class="form-nom-email">
+                    <div class="form-column">
+                        <label for="nom">nom</label>
+                        <input type="text" name="nom" id="nom" />
+                    </div>
+                    <div class="form-column">
+                        <label for="email">email</label>
+                        <input type="e-mail" name="email" id="email" />
+                    </div>
+                </div>
+                <label for="message">message</label>
+                <textarea name="message" id="message" rows="10"></textarea>
+                <input type="submit" value="ENVOYER" class="cta" />
+            </form>
         </section>
     </main>
-
     <footer>
-    <nav id="bas">
-        
-            <img src="image/logo.png" alt="Logo Robbie Lens"  class="logo">
-        <div class="twitterinsta">
-             <a target="_blank" href="https://twitter.com/"><img src="image/communication.png" alt="" class="twitter">
-             </a>
-
-            <a target="_blank" href="https://www.instagram.com/" >
-            <img src="image/instagram.png" alt="Logo Instagram" id="insta" ></a>
-            
-            
-            
-         </div>
-    </nav>
+        <a href="index.html" class="lien-icone">
+            <img src="images/logo.png" alt="Logo Robbie Lens" />
+        </a>
+        <div>
+            <a target="_blank" href="https://twitter.com/" class="lien-icone">
+                <img class="twitter" src="images/twitter (3).png" alt="Logo Twitter" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
+                <img src="images/instagram.png" alt="Logo Instagram" />
+            </a>
+        </div>
     </footer>
-
 </body>
 
 </html>

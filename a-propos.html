@@ -1,54 +1,35 @@
-
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 
 <head>
-    <meta charset="utf-8" >
+    <meta charset="utf-8" />
     <title>À propos - Robbie Lens Photographie</title>
-    <link href="style.css" rel="stylesheet" >
+    <link href="style/style.css" rel="stylesheet" />
+    <link href="style/a-propos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="image/billet-davion.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/billet-davion.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <nav>
-            <img src="image/logo.png" alt="Logo" class="logo"> 
-         <div class="bouton">
-               <a href="index.html" class="bouton1"> Accueil</a>
-               <a href="a-propos.html" class="bouton1">A propos</a>
-               <a href="tarifs.html" class="bouton1">Tarifs</a>
-               <a href="portfolio.html" class="bouton1">Portfolio</a>
-           </div> 
-       </nav>
+            <a href="index.html" class="lien-icone">
+                <img src="images/logo.png" alt="Logo Robbie Lens" />
+            </a>
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="a-propos.html">À propos</a>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+        </nav>
     </header>
-    <main id="bleuee">
-        <div class="carrer"></div>
-        <section class="bleu">
-            <div class="premier">
-         <div class="essayer"></div>
-         <div class="essayer"></div>
-         <div class="essayer"></div>
-         <div class="essayer"></div>
-         <div class="essayer"></div>
-        </div>
-        <div class="dernier">
-         <div class="essayer"></div>
-         <div class="essayer"></div>
-         <div class="essayer"></div>
-         <div class="essayer"></div>
-         <div class="essayer"></div>
-         </div>
-
-
-
-         
-            <h1 id="titre-presentation">À propos</h1>
-            <div class="blablabla">
-                <p id="paragraphe">
+    <main class="a-propos-main">
+        <section>
+            <h1>À propos</h1>
+            <div class="carre-contenu">
+                <p>
                     Photographe depuis plus de 5 ans, je réalise des reportages aux photos dynamiques et pertinentes
                     pour
                     vos
@@ -57,40 +38,80 @@
                     artistique, la réalisation du reportage jusqu’à la livraison de vos photos retouchées, prêtes à
                     l’emploi.
                 </p>
-                <div id="service">
-                        <h2>Services</h2>
-                        <ul>
-                            <li>Portrait seul ou à plusieurs</li>
-                            <li>Shooting mode</li>
-                            <li>Retouches sur mesure</li>
-                            <li>Développement</li>
-                        </ul>
-                        <div id="carer"></div>
-                </div>
+                <h2>Services</h2>
+                <ul>
+                    <li>Portrait seul ou à plusieurs</li>
+                    <li>Shooting mode</li>
+                    <li>Retouches sur mesure</li>
+                    <li>Développement</li>
+                </ul>
             </div>
             <div>
-                <a href="portfolio.html" id="monportofolio">VOIR MON PORTFOLIO</a>
+                <a href="portfolio.html" class="cta">VOIR MON PORTFOLIO</a>
             </div>
         </section>
-       
-          
+        <section class="section-tarifs">
+            <div class="englobe">
+                <div class="shooting">
+                    <h3>Shooting photo</h3>
+                    <p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en île-de-France pour réaliser vos photos.</p>
+                    <h4>350$/demi journée</h4>
+                    <p class="petit">Matériel, déplacement inclus</p>
+                </div>
+                <div class="retouche">
+                <h3>Retouches</h3>
+                     <p>Vous souhaitez retoucher vos photos pour un résultat profésionnel? Bénéficier d'un rendu optimal pour vos publications</p>
+                    <h4>550$/demi journée</h4>
+                    <p class="petit">2 allez/retour par photo</p>
+                </div>
+                <div class="album">
+                    <h3>Album photos</h3>
+                    <p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+                    <h4>400e album A4</h4>
+                    <p class="petit">30 pages ecto/verso</p>
+                </div>
+            </div>
+            <h2>Tarifs</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Désignation</th>
+                        <th>Quantité</th>
+                        <th>Prix</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Retouches photo
+                            studio professionnel</td>
+                        <td>x 800 photos</td>
+                        <td>3 200€/800 photos</td>
+                    </tr>
+                    <tr>
+                        <td>Assistant photo
+                            lumière professionnel</td>
+                        <td>x 2 sets studio</td>
+                        <td>1 500€/journée</td>
+                    </tr>
+                </tbody>
+            </table>
+            </h2>
+            <!--  -->
+
+        </section>
     </main>
     <footer>
-        
-        <nav>
-        
-            <img src="image/logo.png" alt="Logo Robbie Lens"  class="logo">
-        <div class="twitterinsta">
-             <a target="_blank" href="https://twitter.com/"><img src="image/communication.png" alt="" class="twitter">
-             </a>
-
-            <a target="_blank" href="https://www.instagram.com/" >
-            <img src="image/instagram.png" alt="Logo Instagram" id="insta" ></a>
-            
-            
-            
-         </div>
-    </nav>
+        <a href="index.html" class="lien-icone">
+            <img src="images/logo.png" alt="Logo Robbie Lens" />
+        </a>
+        <div>
+            <a target="_blank" href="https://twitter.com/" class="lien-icone">
+                <img src="images/twitter (1).png" alt="Logo Twitter" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
+                <img src="images/instagram.png" alt="Logo Instagram" />
+            </a>
+        </div>
     </footer>
 </body>
 
