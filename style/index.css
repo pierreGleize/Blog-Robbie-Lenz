@@ -16,9 +16,7 @@
     justify-content: center;
     margin-bottom: 15px;
   } */
-  .accueil-photos{
   
-  }
   .accueil-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -131,5 +129,10 @@
     .accueil-grid{
       grid-template-columns: repeat(2,1fr);
       
+    }
+  }
+  @media  screen and (max-width: 405px) {
+    .accueil-introduction img{
+      width: 250px;
     }
   }

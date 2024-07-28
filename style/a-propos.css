@@ -57,7 +57,7 @@
     margin-bottom: 50px;
 }
 .shooting, .retouche, .album{
-  width:15%;
+  /* width:15%; */
   height:300px;
   padding-top: 20px;
   padding-right: 30px;
@@ -98,25 +98,92 @@
   margin-top: 15px;
 }
   
-@media (max-width: 1150px){
+@media screen and (max-width: 1000px){
   .shooting, .retouche{
-    width:30%;
-    height:300px;
-    margin-right: 100px;
-  
-  }
-  .shooting, .retouche{
-    margin-right: 100px;
+    margin-right: 50px;
   }
 }
-
-  @media screen and (max-width: 996px) {
-    .shooting, .retouche, .album{
-      width:25%;
-      height:200px;
-    
-    }
-    .shooting, .retouche{
-      margin:0 10px 0 10px;
-    }
+@media screen and (max-width: 750px){
+  /* .englobe p{
+    font-size: 12px;
+  } */
+  .englobe h3, .englobe h4{
+   font-size: 16px;
   }
+  .shooting, .retouche, .album{
+    height:150px;
+  
+  } .englobe{
+    flex-wrap: wrap;
+    gap: 40px;
+
+}.shooting, .retouche{
+  margin-right: 0px;
+
+} table {
+  width: 100%;
+}
+
+td,
+th {
+  padding: 15px;
+}
+
+td {
+  padding: 50px;
+}
+
+h2 {
+  margin-bottom: 80px;
+}
+
+  
+}
+@media screen and (max-width: 600px) {
+  .carre-contenu {
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 10px 10px 10px 0;
+  }
+  .carre-contenu p{
+    font-size: 12px;
+  }
+  
+}
+
+@media screen and (max-width: 570px){
+  td {
+    padding: 30px;
+  }
+  .carre-contenu h2{
+    font-size: 18px;
+  }
+  li{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 470px){
+  td{
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 405px){
+  td,
+th {
+  padding: 5px;
+}
+.carre-contenu{
+  display: block;
+}
+.carre-contenu p{
+  font-size: 14px;
+  margin-top: 20px;
+}
+.carre-contenu h2{
+  margin: 20px 0;
+}
+}

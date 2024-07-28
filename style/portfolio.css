@@ -37,7 +37,6 @@
   
   @media screen and (max-width: 996px) {
     .grid-paysages {
-      /* grid-template-columns: 1fr; */
       grid-template-columns: 1fr 1fr ;
       grid-template-rows: 300px 300px; 
       gap: 15px;
@@ -47,5 +46,13 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 300px 300px; 
       gap: 15px;
+    }
+    .grid-portraits img {
+      height: 300px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .grid-paysages, .grid-portraits{
+      grid-template-columns: repeat(1, 1fr);
     }
   }
