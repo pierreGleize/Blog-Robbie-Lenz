@@ -171,6 +171,24 @@ h2 {
     padding: 20px;
   }
 }
+
+@media screen and (max-width: 450px){
+  .englobe h4{
+    margin: 0px;
+
+  }
+  .shooting, .retouche, .album{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  .shooting, .retouche, .album p{
+    text-align: justify;
+  }
+}
 @media screen and (max-width: 405px){
   td,
 th {
@@ -186,4 +204,10 @@ th {
 .carre-contenu h2{
   margin: 20px 0;
 }
+}
+
+@media screen and (max-width: 320px){
+  table{
+    display: none;
+  }
 }

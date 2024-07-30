@@ -133,3 +133,15 @@
       margin-right: 10px;
     }
   }
+
+  @media screen and (max-width: 600px){
+    .cta{
+      padding: 15px 20px;
+    }
+  }
+  @media screen and (max-width: 415px){
+    .cta{
+      padding: 10px 15px;
+      font-size: 12px;
+    }
+  }
